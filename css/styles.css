@@ -1,0 +1,24 @@
+/* Reset Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+}
+
+/* Declaração de Cores */
+:root {
+    --text-color: #000;
+    --bg-color: #fff;
+    --main-color: #f75023;
+    --second-color: #a09dab;
+
+    /* Declaração tamanho de fontes */
+    --h1-font: 5.3rem;
+    --h2-font: 3.6rem;
+    --p-font: 1rem;
+}
