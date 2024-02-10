@@ -26,6 +26,9 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+section {
+    padding: 100px 18%;
+}
 
 /* Inicio Header */
 header {
@@ -97,5 +100,19 @@ header {
     color: var(--bg-color);
 }
 
-
 /* Fim Header */
+
+/* Inicio Home */
+.home {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    grid-gap: 4rem;
+}
