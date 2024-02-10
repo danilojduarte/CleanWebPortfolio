@@ -26,6 +26,8 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+
+/* Inicio Header */
 header {
     position: fixed;
     width: 100%;
@@ -34,5 +36,40 @@ header {
     z-index: 1000;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: all .3s ease;
 }
+.logo {
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+}
+.navlist {
+    display: flex;
+}
+.navlist li {
+    position: relative;
+}
+.navlist a {
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 27px;
+}
+.navlist a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--main-color);
+    bottom: -3px;
+    left: 0;
+    transition: ease .40s;
+}
+.navlist a:hover::after{
+    width: 100%;
+}
+
+/* Fim Header */
