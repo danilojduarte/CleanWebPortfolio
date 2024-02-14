@@ -44,6 +44,13 @@ header {
     padding: 30px 18%;
     transition: all .3s ease;
 }
+
+/* Efeito Scrool */
+header.sticky {
+    background: var(--bg-color);
+    padding: 13px 18px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 100%);
+}
 .logo {
     max-width: 100%;
     width: 130px;
