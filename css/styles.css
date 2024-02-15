@@ -187,4 +187,11 @@ span {
 }
 /* Fim Home */
 
-/* Inicio About */
+/* Inicio Sub-Services */
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
