@@ -313,3 +313,36 @@ span {
 .layer:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919 );
 }
+.layer h3 {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    padding-bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.layer:hover h3 {
+    bottom: 52%;
+    opacity: 1;
+}
+.layer h5 {
+    position: absolute;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+.layer:hover h5 {
+    bottom: 48%;
+    opacity: 1;
+}
