@@ -367,10 +367,10 @@ span {
     cursor: pointer;
 }
 .s img {
-    height: 55px;
-    width: 55px;
+    height: 65px;
+    width: 65px;
     background: #f75124;
-    padding: 15x;
+    padding: 15px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -383,3 +383,23 @@ span {
 .s.s-four img {
     background: #faedce;
 }
+.row h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.row h5 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 19px; 
+}
+.row p {
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 28px;
+}
+.row:hover {
+    will-change: transform;
+    transform: perspective(1000px) rotateX(4.800deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05)
+}
+/* Fim Servic */
