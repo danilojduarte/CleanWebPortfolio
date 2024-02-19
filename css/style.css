@@ -403,3 +403,38 @@ span {
     transform: perspective(1000px) rotateX(4.800deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05)
 }
 /* Fim Servic */
+
+/* Inicio Work */
+.cta-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.wrap {
+    background: #fff;
+    box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+    border-radius: 12px;
+    padding: 50px 50px 50px 50px;
+    transition: ease .40s;
+    cursor: pointer;
+}
+.one {
+    background: #baebcd;
+}
+.two {
+    background: #d9d1fa;
+}
+.three {
+    background: #faedce;
+}
+.wrap h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.wrap p {
+    font-size: var(--p-font);
+}
+/* Fim Work */
