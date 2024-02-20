@@ -490,3 +490,26 @@ span {
 }
 
 /* Fim Contact */
+
+
+/* Inicio Footer */
+
+/* Fim Footer */
+
+
+/* Ends */
+.ends {
+    text-align: center;
+    padding: 40px;
+}
+.ends p {
+     font-size: var(--p-font);
+     color: var(--main-color);
+     font-weight: 500;
+     letter-spacing: 1px;
+}
+
+/* Fim Ends */
+
+/* Responsividade */
+
