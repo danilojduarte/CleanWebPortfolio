@@ -438,3 +438,44 @@ span {
     font-size: var(--p-font);
 }
 /* Fim Work */
+
+/* Inicio Contact */
+.contact {
+    background: #8607f0eb;
+    width: 64%;
+    margin: 100px auto;
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background-image: url(../assets/img-contact.png);
+    background-size: cover;
+}
+.center h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: var(--bg-color);
+}
+.center p {
+    font-size: var(--p-font);
+    color: var(--bg-color);
+    line-height: 26px;
+    margin-bottom: 25px;
+} 
+
+/* Estilizando form */
+.contact .action form input[type="email"] {
+    max-width: 100%;
+    width: 470px;
+    padding: 12px 15px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+}
+/* Fim Contact */
