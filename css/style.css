@@ -506,6 +506,46 @@ span {
     font-weight: 600;
     margin-bottom: 15px;
 }
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: var(--second-color);
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 14px;
+    transition: all .30s ease;
+}
+.footer-social a:hover {
+    transform: rotate3d(0, 0, 1, 360deg) scale(1.06);
+    color: var(--main-color);
+}
+.footer-box p i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: var(--second-color);
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    transition: all .30s ease;
+}
+.footer-box p i:hover {
+    transform: rotate3d(0, 0, 1, 360deg) scale(1.06);
+    color: var(--main-color);
+}
+.footer-box h5 {
+    font-size: 14px;
+    color: var(--second-color);
+    margin-top: 8px;
+}
 .footer-box h3 {
     font-size: 20px;
     font-weight: 600;
@@ -524,9 +564,11 @@ span {
 .footer-list a {
     color: var(--second-color);
     transition: all .50s ease;
+    transition: all .40s ease;
 }
 .footer-list a:hover {
     color: var(--main-color);
+    
 }
 
 
