@@ -488,28 +488,93 @@ span {
     border-radius: 30px;
     cursor: pointer;
 }
-
 /* Fim Contact */
 
 
 /* Inicio Footer */
-
+footer {
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+    /* height: 100vh;
+    width: 100%; */
+    background: #faedce;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 5rem;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    gap: 2rem;
+}
+.footer-logo h3 {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    transition: all .45s ease;
+}
+.footer-logo h3:hover {
+    color: var(--second-color);
+}
+.footer-logo h5 {
+    font-size: 14px;
+    color: var(--second-color);
+}
+.footer-content h4 {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    color: var(--main-color);
+}
+.footer-content li {
+    margin-bottom: 16px;
+}
+.footer-content li a {
+    display: block;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--main-color);
+}
+.footer-content a {
+    /* display: block; */
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+.footer-content a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--main-color);
+}
+.footer-content p {
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 10px;
+    font-weight: 500;
+    margin: 20px 0; 
+}
+.footer-icons a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+.bx  {
+    font-size: 1.8rem;
+    transition: all .45s ease;
+} 
+.bx:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--main-color);
+}
 /* Fim Footer */
 
-
-/* Ends */
-.ends {
-    text-align: center;
-    padding: 40px;
-}
-.ends p {
-     font-size: var(--p-font);
-     color: var(--main-color);
-     font-weight: 500;
-     letter-spacing: 1px;
-}
-
-/* Fim Ends */
 
 /* Responsividade */
 
