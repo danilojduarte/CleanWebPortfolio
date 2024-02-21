@@ -490,14 +490,52 @@ span {
 }
 /* Fim Contact */
 
+/* Footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, auto));
+    gap: 2rem;
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h2 {
+    font-size: 20px;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-list li {
+    font-weight: 600;
+    color: var(--second-color);
+    margin-bottom: 1rem;
+    transition: all .50s ease;
+}
+.footer-list li:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--main-color);
+}
+.footer-list a {
+    color: var(--second-color);
+    transition: all .50s ease;
+}
+.footer-list a:hover {
+    color: var(--main-color);
+}
 
-/* Inicio Footer */
+
+/* Inicio Footer 
 footer {
     width: 100%;
     height: auto;
     margin: 100px auto;
-    /* height: 100vh;
-    width: 100%; */
+    
     background: #faedce;
 }
 .footer {
@@ -543,7 +581,7 @@ footer {
     color: var(--main-color);
 }
 .footer-content a {
-    /* display: block; */
+   
     color: var(--text-color);
     font-size: 15px;
     font-weight: 400;
@@ -573,7 +611,7 @@ footer {
     transform: translateY(-3px) translateX(-5px);
     color: var(--main-color);
 }
-/* Fim Footer */
+*/
 
 
 /* Responsividade */
