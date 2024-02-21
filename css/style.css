@@ -42,7 +42,7 @@ header {
     justify-content: space-between;
     background: transparent;
     padding: 30px 18%;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 /* Efeito Scrool */
@@ -72,16 +72,16 @@ header.sticky {
     padding: 10px 27px;
 }
 .navlist a::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     height: 2px;
     background: var(--main-color);
     bottom: -3px;
     left: 0;
-    transition: ease .40s;
+    transition: ease 0.4s;
 }
-.navlist a:hover::after{
+.navlist a:hover::after {
     width: 100%;
 }
 #menu-icon {
@@ -101,7 +101,7 @@ header.sticky {
     letter-spacing: 1px;
     font-size: var(--p-font);
     font-weight: 600;
-    transition: ease .5s;
+    transition: ease 0.5s;
 }
 .top-btn:hover {
     transform: scale(1.1);
@@ -126,11 +126,14 @@ header.sticky {
     align-items: center;
     grid-gap: 4rem;
 }
-.home-text h1{
+.home-text h1 {
     margin: 10px 0px 25px;
     font-size: var(--h2-font);
     line-height: 1;
     font-weight: 700;
+}
+.home-text h1 span {
+    color: var(--main-color);
 }
 .home-text h5 {
     margin-bottom: 23px;
@@ -167,7 +170,7 @@ span {
 .social a:hover {
     transform: scale(1.1);
     background: var(--main-color);
-    transition: .5s;
+    transition: 0.5s;
 }
 .btn {
     display: inline-block;
@@ -178,7 +181,7 @@ span {
     font-weight: 500;
     line-height: 24px;
     border-radius: 30px;
-    transition: ease .40s;
+    transition: ease 0.4s;
 }
 .btn:hover {
     transform: scale(1.1);
@@ -200,7 +203,7 @@ span {
 }
 .sub-box {
     padding: 45px 45px 45px 45px;
-    transition: ease .50s;
+    transition: ease 0.5s;
     cursor: pointer;
 }
 .sub-img img {
@@ -224,7 +227,7 @@ span {
     box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
     border-radius: 12px;
     will-change: transform;
-    transform: perspective(1000px) rotateX(4.800deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
+    transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
 }
 /* Fim Sub-Services */
 
@@ -260,7 +263,6 @@ span {
 }
 /* Fim About Me */
 
-
 /* Inicio Portfolio */
 .heading {
     text-align: center;
@@ -278,8 +280,8 @@ span {
 }
 .heading p {
     font-size: var(--p-font);
-     color: var(--second-color);
-     line-height: 28px;
+    color: var(--second-color);
+    line-height: 28px;
 }
 .portfolio-content {
     display: grid;
@@ -298,7 +300,7 @@ span {
     width: 550px;
     height: auto;
     object-fit: cover;
-    border-radius: 12px;   
+    border-radius: 12px;
 }
 .layer {
     background: transparent;
@@ -308,10 +310,10 @@ span {
     top: 0;
     left: 0;
     border-radius: 12px;
-    transition: all .40s;
+    transition: all 0.4s;
 }
 .layer:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919 );
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
 }
 .layer h3 {
     position: absolute;
@@ -324,7 +326,7 @@ span {
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    transition: all .40s;
+    transition: all 0.4s;
 }
 .layer:hover h3 {
     bottom: 52%;
@@ -340,7 +342,7 @@ span {
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    transition: all .40s;
+    transition: all 0.4s;
 }
 .layer:hover h5 {
     bottom: 48%;
@@ -348,7 +350,6 @@ span {
 }
 
 /* Fim Portfolio */
-
 
 /* Inicio Servic */
 .service-content {
@@ -363,7 +364,7 @@ span {
     box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
     border-radius: 12px;
     padding: 45px 45px 45px 45px;
-    transition: ease .45s;
+    transition: ease 0.45s;
     cursor: pointer;
 }
 .s img {
@@ -391,7 +392,7 @@ span {
 .row h5 {
     font-size: 17px;
     font-weight: 500;
-    margin-bottom: 19px; 
+    margin-bottom: 19px;
 }
 .row p {
     color: var(--second-color);
@@ -400,7 +401,7 @@ span {
 }
 .row:hover {
     will-change: transform;
-    transform: perspective(1000px) rotateX(4.800deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05)
+    transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05);
 }
 /* Fim Servic */
 
@@ -417,7 +418,7 @@ span {
     box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
     border-radius: 12px;
     padding: 50px 50px 50px 50px;
-    transition: ease .40s;
+    transition: ease 0.4s;
     cursor: pointer;
 }
 .one {
@@ -464,7 +465,7 @@ span {
     color: var(--bg-color);
     line-height: 26px;
     margin-bottom: 25px;
-} 
+}
 
 /* Estilizando form */
 .contact .action form input[type="email"] {
@@ -523,7 +524,7 @@ span {
     font-size: 22px;
     border-radius: 10px;
     margin-right: 14px;
-    transition: all .30s ease;
+    transition: all 0.3s ease;
 }
 .footer-social a:hover {
     transform: rotate3d(0, 0, 1, 360deg) scale(1.06);
@@ -542,7 +543,7 @@ span {
     border-radius: 10px;
     margin-right: 14px;
     margin-bottom: 14px;
-    transition: all .30s ease;
+    transition: all 0.3s ease;
 }
 .footer-box p i:hover {
     transform: rotate3d(0, 0, 1, 360deg) scale(1.06);
@@ -563,7 +564,7 @@ span {
     font-weight: 600;
     color: var(--second-color);
     margin-bottom: 1rem;
-    transition: all .50s ease;
+    transition: all 0.5s ease;
 }
 .footer-list li:hover {
     transform: translateY(-3px) translateX(-5px);
@@ -571,8 +572,8 @@ span {
 }
 .footer-list a {
     color: var(--second-color);
-    transition: all .50s ease;
-    transition: all .40s ease;
+    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 .footer-list a:hover {
     color: var(--main-color);
@@ -583,90 +584,33 @@ span {
     color: var(--main-color);
 }
 
-
-/* Inicio Footer 
-footer {
-    width: 100%;
-    height: auto;
-    margin: 100px auto;
-    
-    background: #faedce;
-}
-.footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
-    gap: 5rem;
-}
-.footer-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    gap: 2rem;
-}
-.footer-logo h3 {
-    color: var(--main-color);
-    font-size: 1.2rem;
-    transition: all .45s ease;
-}
-.footer-logo h3:hover {
-    color: var(--second-color);
-}
-.footer-logo h5 {
-    font-size: 14px;
-    color: var(--second-color);
-}
-.footer-content h4 {
-    font-size: 20px;
-    margin-bottom: 1.5rem;
-    color: var(--main-color);
-}
-.footer-content li {
-    margin-bottom: 16px;
-}
-.footer-content li a {
-    display: block;
-    color: var(--text-color);
-    font-size: 17px;
-    font-weight: 600;
-    transition: all .40s ease;
-}
-.footer-content li a:hover {
-    transform: translateY(-3px) translateX(-5px);
-    color: var(--main-color);
-}
-.footer-content a {
-   
-    color: var(--text-color);
-    font-size: 15px;
-    font-weight: 400;
-    transition: all .40s ease;
-}
-.footer-content a:hover {
-    transform: translateY(-3px) translateX(-5px);
-    color: var(--main-color);
-}
-.footer-content p {
-    font-size: 16px;
-    color: var(--text-color);
-    line-height: 10px;
-    font-weight: 500;
-    margin: 20px 0; 
-}
-.footer-icons a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} 
-.bx  {
-    font-size: 1.8rem;
-    transition: all .45s ease;
-} 
-.bx:hover {
-    transform: translateY(-3px) translateX(-5px);
-    color: var(--main-color);
-}
-*/
-
-
 /* Responsividade */
-
+@media (max-width: 1425px) {
+    header {
+        padding: 16px 3%;
+        transition: 0.3s;
+    }
+    header.sticky {
+        padding: 10px 3%;
+        transition: 0.3s;
+    }
+    section {
+        padding: 70px 3%;
+        transition: 0.3s;
+    }
+    .contact {
+        width: 95%;
+        transition: .3s;
+    }
+    :root {
+        --big-font: 4rem;
+        --h2-font: 2.3rem;
+        --p-font: 1rem;
+        transition: .3s;
+    }
+}
+@media (max-width: 970px) {
+    #menu-icon {
+        display: block
+    }
+}
