@@ -673,12 +673,12 @@ span {
         --h2-font: 2rem;
     }
     section {
-        padding: 65% 5%;
+        padding: 65px 5%;
         transition: .3s;
     }
 }
 @media (max-width: 540px) {
-    .contact .action form input[type="email"] {
+    .contact .action form input[type="email"] { 
         width: 310px;
     }
 }
