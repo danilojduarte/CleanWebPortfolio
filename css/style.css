@@ -714,6 +714,7 @@ span {
     }
     .footer-box {
         text-align: left;
+        padding: 0;
         margin-bottom: 2rem;
     }
     .footer-box h5 {
