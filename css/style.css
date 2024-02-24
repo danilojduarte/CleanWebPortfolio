@@ -681,4 +681,17 @@ span {
     .contact .action form input[type="email"] { 
         width: 310px;
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-box {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .footer-box h5 {
+        font-size: 12px;
+    }
 }
