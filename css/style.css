@@ -353,17 +353,23 @@ span {
 
 /* Inicio Servic */
 .service-content {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 45px;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-    grid-gap: 2rem;
+    grid-gap: 1rem; */
     align-items: center;
     margin-top: 5rem;
 }
 .row {
     background: #fff;
     box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+    width: 340px;
     border-radius: 12px;
-    padding: 45px 45px 45px 45px;
+    padding: 35px 35px 35px 35px;
     transition: ease 0.45s;
     cursor: pointer;
 }
@@ -668,14 +674,28 @@ span {
         text-align: center;
         margin-bottom: 30px;
     }
+    .service-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        padding: 45px;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .row {
+        text-align: center;
+    }
     :root {
         --big-font: 3.4rem;
         --h2-font: 2rem;
     }
     section {
-        padding: 65px 5%;
+        padding: 60px 5%;
         transition: .3s;
     }
+
 }
 @media (max-width: 540px) {
     .contact .action form input[type="email"] { 
