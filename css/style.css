@@ -598,7 +598,7 @@ span {
 /* Responsividade */
 @media (max-width: 1425px) {
     header {
-        padding: 16px 3%;
+        padding: 18px 10%;
         transition: 0.3s;
     }
     header.sticky {
